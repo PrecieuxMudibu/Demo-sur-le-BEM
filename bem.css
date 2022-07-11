@@ -1,0 +1,106 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    font-family: arial;
+
+}
+
+.header {
+    margin: 2% 0 1.5% 0;
+    padding:0% 5%;
+    display:flex;
+    justify-content:space-between;
+
+}
+
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+
+.header-nav {
+    padding-top: 1%;
+    width: 65%;
+    display: flex;
+}
+
+.header-nav li {
+    margin: 0 5%;
+}
+
+.header-nav__link {
+    font-weight:bold;
+    color: black;
+    font-family: arial;
+    padding:15% 0%;
+}
+
+.header-nav__link:hover {
+    border-bottom: 2px solid #d92950;
+}
+
+.header-nav__link--active {
+    border-bottom: 2px solid #d92950;
+    color:#d92950;
+}
+
+.header-nav__link--inscription {
+    background-color: #d92950;
+    color:white;
+    padding: 20% 30%;
+    border-radius: 9px;
+    text-transform: uppercase;
+}
+
+.main {
+    background-color: #e6004c;
+    text-align: center;
+    padding:7.3% 0;
+}
+
+.main__title {
+    color:white;
+    font-size: 40px;
+    line-height: 3.125rem;
+    font-weight: 600;
+}
+
+.main__paragraph {
+    font-size: 18px;
+    line-height: 1.5rem;
+    font-weight: 400;
+    color:white;
+    margin: 4% 0;
+
+}
+
+.main__link {
+    cursor: pointer;
+    background: #fff;
+    color: #d92950 !important;
+    padding: 10px 50px;
+    transition: all ease-out 0.1s;
+    font-weight: 600;
+    border-radius: 9px;
+    font-size: 20px;
+    border: 2px solid #fff;
+    text-transform: uppercase;
+}
+
+.footer {
+    background-color: black;
+}
+
+.footer__paragraph {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    padding:4% 0;
+}
